@@ -1,0 +1,47 @@
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu:wght@700&display=swap");
+
+body {
+  font-family: "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  background-color: #f6f4eb;
+  color: #4682a9;
+  padding: 16px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="text"],
+select {
+  border: 1px solid #4682a9;
+  color: #192c38;
+  font-size: 16px;
+  height: 22px;
+  width: 100%;
+  padding: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 250px;
+}
+
+label {
+  display: flex;
+  gap: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul input[type="checkbox"] {
+  margin-right: 8px;
+}

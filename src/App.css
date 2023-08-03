@@ -1,0 +1,70 @@
+h1 {
+  color: #4682a9;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h2 {
+  color: #4682a9;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 8px 0px 16px 0px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.form-container {
+  margin: 0px 0px 16px 0px;
+  padding: 16px;
+  border: 1px solid #4682a9;
+  border-radius: 5px;
+  width: 800px;
+}
+
+.close {
+  float: right;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #749bc2;
+}
+.close:hover {
+  color: #91c8e4;
+}
+
+.field-name {
+  color: #4682a9;
+  font-weight: 700;
+}
+
+.note {
+  font-size: 12px;
+  color: #4682a9;
+  margin-top: 8px;
+}
+
+.columns-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  border: 1px solid #4682a9;
+  border-radius: 5px;
+  width: 400px;
+  padding: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.remove-data-container {
+  margin-top: 24px;
+}

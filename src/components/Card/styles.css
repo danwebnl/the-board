@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #4682a9;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.task {
+  font-weight: 700;
+  color: #284c63;
+  margin-bottom: 8px;
+}
+
+.categories-list > li {
+  display: inline-block;
+  color: #fff;
+  padding: 4px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: right;
+  gap: 8px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,32 @@
+.button {
+  background-color: #4682a9;
+  color: #f6f4eb;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px;
+  border: 1px solid #4682a9;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #305a77;
+  border: 1px solid #305a77;
+}
+
+.button:active {
+  background-color: #1c7abe;
+  border: 1px solid #1c7abe;
+}
+
+.primary {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.small {
+  font-size: 12px;
+  padding: 2px;
+  background-color: #91c8e4;
+  border: 1px solid #91c8e4;
+}
